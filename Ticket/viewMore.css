@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Raleway;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #121F2F;
+}
+
+.coming-soon {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon > h1 {
+    font-size: 5vw;
+    color: white;
+    background-color: #666F98;
+    padding: 2vw;
+    border-radius: 2vw;
+}
+
+.coming-soon > p {
+    font-size: 2.5vw;
+    color: white;
+    padding: 1vw;
+    border-radius: 2vw;
+}
